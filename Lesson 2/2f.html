@@ -1,14 +1,65 @@
-<!DOCTYPE html>
-<html>
+<style>
+    .cart-button {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        border: none;
+        height: 30px;
+        padding: 0 25px;
+        width: 150px;
+        border-radius: 60px;
+        cursor: pointer;
+        font-size: 15px;
+        margin-right: 8px;
+    }
 
-<head>
-    <title>Lesson 1 - 1f.html</title>
-</head>
+    .buy-button {
+        background-color: rgb(255, 164, 28);
+        color: black;
+        border: none;
+        height: 30px;
+        width: 150px;
+        padding: 0 25px;
+        border-radius: 60px;
+        cursor: pointer;
+        font-size: 15px;
+        margin-right: 8px;
+    }
+    .stock-text{
+        color: rgb(0, 118, 0);
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .product-name {
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-<body>
-    <a href="https://www.google.com" target="_blank">
-        Search with Google
-    </a>
-</body>
 
-</html>
+    .back-button {
+        color: rgb(0, 113, 133);
+        cursor: pointer;
+        font-size: 15px;
+    }
+</style>
+
+<a href="https://www.amazon.com" target="_blank" class="back-button">
+    Back to Amazon
+</a>
+<p class="product-name">
+    Nike Black Running Shoes
+</p>
+
+<p class="stock-text">
+    $39 - in stock.
+</p>
+
+<p>
+    Free delivery tomorrow
+</p>
+
+<button class="cart-button">
+    Add to Cart
+</button>
+<button class="buy-button">
+    Buy now
+</button>
